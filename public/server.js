@@ -14,14 +14,12 @@ var rollbar = new Rollbar({
 rollbar.log('Hello world!')
 
 try {
-    nonExistentFunction();
+    nonExistentFunction()
   } catch (error) {
-    console.error(error);
+    console.error(error)
     
   }
   
-
-
 
 
 
